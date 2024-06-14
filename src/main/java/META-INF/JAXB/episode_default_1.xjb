@@ -1,26 +1,32 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<jaxb:bindings version="2.1" xmlns:jaxb="http://java.sun.com/xml/ns/jaxb">
+<bindings version="2.1" xmlns="http://java.sun.com/xml/ns/jaxb">
   <!--
 
 Este archivo ha sido generado por la arquitectura JavaTM para la implantación de la referencia de enlace (JAXB) XML v2.3.2 
 Visite <a href="https://javaee.github.io/jaxb-v2/">https://javaee.github.io/jaxb-v2/</a> 
 Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
-Generado el: 2024.06.13 a las 10:01:59 PM GMT-07:00 
+Generado el: 2024.06.13 a las 11:38:54 PM GMT-07:00 
 
   -->
-  <jaxb:bindings scd="x-schema::">
-    <jaxb:schemaBindings map="false">
-      <jaxb:package name="generated"/>
-    </jaxb:schemaBindings>
-    <jaxb:bindings scd="AfectacionPresupuestalRequest">
-      <jaxb:class ref="generated.AfectacionPresupuestalRequest"/>
-    </jaxb:bindings>
-    <jaxb:bindings scd="PagoRequest">
-      <jaxb:class ref="generated.PagoRequest"/>
-    </jaxb:bindings>
-    <jaxb:bindings scd="guardadoRequest">
-      <jaxb:class ref="generated.GuardadoRequest"/>
-    </jaxb:bindings>
-  </jaxb:bindings>
-</jaxb:bindings>
+  <bindings scd="x-schema::tns" xmlns:tns="https://registro.uv.mx/registro">
+    <schemaBindings map="false">
+      <package name="https.registro_uv_mx.registro"/>
+    </schemaBindings>
+    <bindings scd="tns:AfectacionPresupuestalRequest">
+      <class ref="https.registro_uv_mx.registro.AfectacionPresupuestalRequest"/>
+    </bindings>
+    <bindings scd="tns:PagoRequest">
+      <class ref="https.registro_uv_mx.registro.PagoRequest"/>
+    </bindings>
+    <bindings scd="tns:guardadoRequest">
+      <class ref="https.registro_uv_mx.registro.GuardadoRequest"/>
+    </bindings>
+    <bindings scd="tns:AfectacionPresupuestalResponse">
+      <class ref="https.registro_uv_mx.registro.AfectacionPresupuestalResponse"/>
+    </bindings>
+    <bindings scd="tns:PagoResponse">
+      <class ref="https.registro_uv_mx.registro.PagoResponse"/>
+    </bindings>
+  </bindings>
+</bindings>
 
