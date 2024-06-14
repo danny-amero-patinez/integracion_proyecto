@@ -1,4 +1,4 @@
-package mx.uv.registro;
+package uv.mx.registro;
 
 import org.springframework.ws.server.endpoint.annotation.Endpoint;
 import org.springframework.ws.server.endpoint.annotation.PayloadRoot;
@@ -18,7 +18,7 @@ public class RegistroEndpoint {
     @ResponsePayload
     public AfectacionPresupuestalResponse handleAfectacionPresupuestalRequest(@RequestPayload AfectacionPresupuestalRequest request) {
         AfectacionPresupuestalResponse response = new AfectacionPresupuestalResponse();
-        response.setSuccess(true); // lógica del negocio
+        response.setSuccess(true);
         return response;
     }
 
@@ -26,7 +26,7 @@ public class RegistroEndpoint {
     @ResponsePayload
     public PagoResponse handlePagoRequest(@RequestPayload PagoRequest request) {
         PagoResponse response = new PagoResponse();
-        response.setSuccess(true); // lógica del negocio
+        response.setSuccess(true);
         return response;
     }
 }
