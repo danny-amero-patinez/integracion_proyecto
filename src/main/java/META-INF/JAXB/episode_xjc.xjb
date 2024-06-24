@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bindings version="3.0" xmlns="https://jakarta.ee/xml/ns/jaxb">
+  <!--
+
+Este archivo ha sido generado por Eclipse Implementation of JAXB v3.0.0 
+Visite https://eclipse-ee4j.github.io/jaxb-ri 
+Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
+Generado el: 2024.06.23 a las 09:07:03 PM GMT-07:00 
+
+  -->
+  <bindings scd="x-schema::tns" xmlns:tns="https://registro.uv.mx/contabilidad">
+    <schemaBindings map="false">
+      <package name="https.registro_uv_mx.contabilidad"/>
+    </schemaBindings>
+    <bindings scd="tns:PagoRequest">
+      <class ref="https.registro_uv_mx.contabilidad.PagoRequest"/>
+    </bindings>
+    <bindings scd="tns:PagoResponse">
+      <class ref="https.registro_uv_mx.contabilidad.PagoResponse"/>
+    </bindings>
+    <bindings scd="tns:pagosAprobadosRequest">
+      <class ref="https.registro_uv_mx.contabilidad.PagosAprobadosRequest"/>
+    </bindings>
+    <bindings scd="tns:pagosAprobadosResponse">
+      <class ref="https.registro_uv_mx.contabilidad.PagosAprobadosResponse"/>
+    </bindings>
+  </bindings>
+</bindings>
+
