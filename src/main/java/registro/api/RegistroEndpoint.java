@@ -1,4 +1,4 @@
-package uv.mx.registro;
+package registro;
 
 import org.springframework.ws.server.endpoint.annotation.Endpoint;
 import org.springframework.ws.server.endpoint.annotation.PayloadRoot;

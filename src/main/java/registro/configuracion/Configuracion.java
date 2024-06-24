@@ -1,4 +1,4 @@
-package uv.mx.registro;
+package registro;
 
 import org.springframework.boot.web.servlet.ServletRegistrationBean;
 import org.springframework.context.ApplicationContext;
