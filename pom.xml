@@ -68,7 +68,7 @@
 	</dependencies>
 
 	<build>
-		<pluginManagement>
+		<!-- pluginManagement>
 			<plugins>
 				<plugin>
 					<groupId>org.springframework.boot</groupId>
@@ -85,9 +85,22 @@
 					</executions>
 				</plugin>
 			</plugins>
-		</pluginManagement>
+		</pluginManagement -->
 		<plugins>
-			
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+				<configuration>
+					<mainClass>application.main</mainClass>
+				</configuration>
+				<executions>
+					<execution>
+						<goals>
+							<goal>repackage</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
 			<plugin>
 				<groupId>org.codehaus.mojo</groupId>
 				<artifactId>jaxb2-maven-plugin</artifactId>
